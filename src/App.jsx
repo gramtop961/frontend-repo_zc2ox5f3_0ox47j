@@ -1,6 +1,8 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import Docs from './components/Docs';
+import Installation from './components/Installation';
 import Footer from './components/Footer';
 
 function App() {
@@ -10,7 +12,8 @@ function App() {
       <main>
         <Hero />
         <Features />
-        {/* Sezioni opzionali come Docs o Download possono essere aggiunte in seguito */}
+        <Docs />
+        <Installation />
       </main>
       <Footer />
     </div>
